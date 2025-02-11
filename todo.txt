@@ -1,0 +1,14 @@
+Create kafka-notification-consumer
+    Write code to consume message using kafka-listener
+    Write to a notification.txt file about the content received
+
+Update event-stream generator
+    Generate a Notification object instead of string with timestamp
+
+Update kafka-notification-producer
+    Store the Notification object in kafka broker
+
+Update kafka-notification-consumer
+    Consume the Notification object instead of a string
+    Based on the notification received, write a code to return random followers for the creator
+    Create a meaningful message for the follower and store info about the notification in notification.txt
